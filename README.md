@@ -5,8 +5,8 @@ Sometimes you need to quickly generate different biscuits rapidly for testing pu
 This is an early work in progress. Please use it with caution! 
 
 ```shell
-└─[$] python py-biscuit-cli.py -h                                                                                                                                                              [15:34:15]
-usage: py-biscuit-cli.py [-h] [-bpk BISCUIT_PRIVATE_KEY] -rid RESOURCE_ID
+└─[$] python py-biscuit-cli.py --help                                                                                                                                                          [17:22:37]
+usage: py-biscuit-cli.py [-h] [-bpk BISCUIT_PRIVATE_KEY] [-rid RESOURCE_ID] [-d DATALOG_FILE]
 
 Space and Time Biscuit Python CLI Help Menu 🚀
 
@@ -16,4 +16,7 @@ options:
                         Private key you want to create your biscuit with
   -rid RESOURCE_ID, --resource-id RESOURCE_ID
                         Resource ID you want to assoicate your biscuit with
+  -d DATALOG_FILE, --datalog-file DATALOG_FILE
+                        datalog file to read
+
 ```
