@@ -1,0 +1,7 @@
+sxt:capability("ddl_create", se_playground.venus);
+sxt:capability("ddl_drop", se_playground.venus);
+sxt:capability("dml_insert", se_playground.venus);
+sxt:capability("dml_update", se_playground.venus);
+sxt:capability("dml_merge", se_playground.venus);
+sxt:capability("dml_delete", se_playground.venus);
+sxt:capability("dql_select", se_playground.venus);

@@ -1,0 +1,7 @@
+sxt:capability("ddl_create", {resource_id});
+sxt:capability("ddl_drop", {resource_id});
+sxt:capability("dml_insert", {resource_id});
+sxt:capability("dml_update", {resource_id});
+sxt:capability("dml_merge", {resource_id});
+sxt:capability("dml_delete", {resource_id});
+sxt:capability("dql_select", {resource_id});
